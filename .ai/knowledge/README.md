@@ -25,9 +25,9 @@
 2. `requirement/Further.md`
 3. `docs/PRD.md`
 4. `.ai/CONTEXT.md`
-5. `TODO.md`
+5. `.ai/TODO.md`
 
-요구사항 원문과 프로젝트 문서가 충돌하면 먼저 사용자에게 확인하거나, 이미 합의된 내용이 `TODO.md`와 `.ai/CONTEXT.md`에 반영되어 있는지 확인한다.
+요구사항 원문과 프로젝트 문서가 충돌하면 먼저 사용자에게 확인하거나, 이미 합의된 내용이 `.ai/TODO.md`와 `.ai/CONTEXT.md`에 반영되어 있는지 확인한다.
 
 ---
 

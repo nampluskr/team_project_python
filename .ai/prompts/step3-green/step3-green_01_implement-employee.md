@@ -4,7 +4,7 @@
 step3-green
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/CONTEXT.md`
 - `docs/PRD.md`
 - RED 단계 실패 테스트

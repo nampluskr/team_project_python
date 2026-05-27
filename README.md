@@ -162,15 +162,16 @@ requirement/
 
 ## To-Do List
 
-상세 체크리스트는 [TODO.md](TODO.md)를 기준으로 관리한다.
+상세 체크리스트는 [TODO.md](.ai/TODO.md)를 기준으로 관리한다.
+상태 동기화가 필요할 때는 `python3 .ai/scripts/sync_todo_status.py`를 실행한다.
 
 | 단계 | 브랜치 | 상태 | 주요 작업 |
 |---|---|---|---|
-| SPEC | D-07-SPEC | 완료 | 요구사항 문서화, README/TODO 작성 |
-| RED | D-07-RED | 대기 | 실패하는 테스트 케이스 작성 및 실패 확인 |
-| GREEN | D-07-GREEN | 대기 | 실패 테스트를 통과시키는 최소 구현 |
-| REFACTOR | D-07-REFACTOR | 대기 | 구조 개선, Repository 분리, 네이밍 정리, 커버리지 확인 |
-| 최종 제출 | - | 대기 | BP.md 작성, 발표 자료 정리, 최종 문서 최신화 |
+| SPEC | D-07-SPEC | 완료| 요구사항 문서화, README/TODO 작성 |
+| RED | D-07-RED | 대기| 실패하는 테스트 케이스 작성 및 실패 확인 |
+| GREEN | D-07-GREEN | 대기| 실패 테스트를 통과시키는 최소 구현 |
+| REFACTOR | D-07-REFACTOR | 대기| 구조 개선, Repository 분리, 네이밍 정리, 커버리지 확인 |
+| 최종 제출 | - | 대기| BP.md 작성, 발표 자료 정리, 최종 문서 최신화 |
 
 ---
 
@@ -190,7 +191,7 @@ D팀 07번 기준:
 
 ## 관련 문서
 
-- [TODO.md](TODO.md) — 단계별 체크리스트
+- [TODO.md](.ai/TODO.md) — 단계별 체크리스트
 - [PRD.md](docs/PRD.md) — 프로젝트 요구사항 정의서
 - [requirement/Base.md](requirement/Base.md) — 기본 요구사항
 - [requirement/Further.md](requirement/Further.md) — 추가 요구사항

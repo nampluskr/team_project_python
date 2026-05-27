@@ -4,7 +4,7 @@
 step5-final
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `README.md`
 - `docs/PRD.md`
 - `bp/BP.md`

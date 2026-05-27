@@ -1,4 +1,4 @@
-# TODO — Employee Management System (D팀 07번)
+# TODO
 
 ---
 

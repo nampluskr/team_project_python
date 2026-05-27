@@ -7,7 +7,7 @@ step1-spec
 - `docs/PRD.md`
 - `requirement/Base.md`
 - `requirement/Further.md`
-- `TODO.md`
+- `.ai/TODO.md`
 
 ## 작업
 - 기본/추가 요구사항을 기준으로 `docs/PRD.md`를 작성 또는 최신화한다.

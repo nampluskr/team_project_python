@@ -9,9 +9,9 @@ AI CLI가 이 프로젝트를 진행할 때 따르는 작업 규칙을 모아두
 
 ## 기본 규칙
 
-- 프로젝트 진행상태의 1차 기준은 `TODO.md`이다.
+- 프로젝트 진행상태의 1차 기준은 `.ai/TODO.md`이다.
 - 전체 컨텍스트는 `.ai/CONTEXT.md`를 함께 확인한다.
-- `README.md`, `.ai/CONTEXT.md`, `.ai/prompts/README.md`의 상태 표현이 `TODO.md`와 다르면 `TODO.md`를 우선한다.
+- `README.md`, `.ai/CONTEXT.md`, `.ai/prompts/README.md`의 상태 표현이 `.ai/TODO.md`와 다르면 `.ai/TODO.md`를 우선한다.
 - 완료 근거가 없는 항목은 체크하지 않는다.
 - 새 단계 작업을 시작하기 전에 현재 브랜치와 작업 트리 상태를 확인한다.
 - 코드 변경 후에는 가능한 범위에서 `pytest` 또는 관련 테스트를 실행한다.
@@ -30,6 +30,7 @@ AI CLI가 이 프로젝트를 진행할 때 따르는 작업 규칙을 모아두
 
 ## 문서 갱신 규칙
 
-- 단계 상태가 바뀌면 `TODO.md`와 `.ai/CONTEXT.md`를 함께 갱신한다.
+- 단계 상태가 바뀌면 `python3 .ai/scripts/sync_todo_status.py`를 실행해 `README.md`와 `.ai/CONTEXT.md` 상태를 동기화한다.
+- 프롬프트 작업 완료 직후 `python3 .ai/scripts/complete_prompt.py {프롬프트파일경로} --summary "작업 요약"`를 실행해 `.ai/TODO.md`, `.ai/sessions/current.md`, `.ai/sessions/{단계}/`, `.ai/logs/{단계}/`를 자동 갱신한다.
 - 프롬프트 목록이 바뀌면 `.ai/prompts/README.md`를 갱신한다.
 - 세션을 종료할 때는 `.ai/sessions/current.md`와 `.ai/logs/{단계}/` 로그를 남긴다.

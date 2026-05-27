@@ -4,7 +4,7 @@
 step2-red
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/CONTEXT.md`
 - `docs/PRD.md`
 - `python/option_parser.py`

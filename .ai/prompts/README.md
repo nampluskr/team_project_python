@@ -4,6 +4,11 @@
 
 각 TODO 항목에 1대1 대응하는 AI CLI 프롬프트 파일 목록이다.
 "{프롬프트 파일명} 진행" 형식으로 해당 작업을 시작한다.
+프롬프트 실행이 끝나면 아래 명령으로 session / logs / TODO를 자동 업데이트한다.
+
+```bash
+python3 .ai/scripts/complete_prompt.py .ai/prompts/{단계}/{프롬프트파일명}.md --summary "작업 요약"
+```
 
 ---
 
@@ -25,7 +30,7 @@
 - 소스 경로: python/
 - 테스트 프레임워크: pytest
 - 요구사항: docs/PRD.md / requirement/Base.md / requirement/Further.md
-- TODO 목록: TODO.md
+- TODO 목록: .ai/TODO.md
 
 생성 대상 파일 목록은 이 파일의 ## 프롬프트 파일 목록 섹션을 참조한다.
 ```

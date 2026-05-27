@@ -5,7 +5,7 @@ step1-spec
 
 ## 완료 항목
 - [x] SPEC 단계 완료 상태 확인
-- [x] `TODO.md`의 GREEN 단계 체크 표시를 미완료로 정정
+- [x] `.ai/TODO.md`의 GREEN 단계 체크 표시를 미완료로 정정
 - [x] `.ai/CONTEXT.md`의 TDD 현황을 SPEC 완료, RED/GREEN/REFACTOR 대기로 정정
 - [x] `.ai/prompts/README.md`의 GREEN 완료 전제를 제거
 - [x] `.ai/rules`, `.ai/skills`, `.ai/knowledge` 기본 README 생성
@@ -26,7 +26,7 @@ step1-spec
 
 ## 파일 변경 내역
 - 신규/수정: `README.md`
-- 신규/수정: `TODO.md`
+- 신규/수정: `.ai/TODO.md`
 - 신규/수정: `.ai/CONTEXT.md`
 - 신규/수정: `.ai/prompts/README.md`
 - 신규/수정: `.ai/rules/README.md`
@@ -42,7 +42,7 @@ step1-spec
 - 제안: `docs: initialize project workflow docs`
 
 ## 이슈 및 메모
-- 프로젝트 진행상태의 1차 기준은 `TODO.md`이다.
+- 프로젝트 진행상태의 1차 기준은 `.ai/TODO.md`이다.
 - 현재 합의된 상태는 SPEC만 완료이며 RED, GREEN, REFACTOR는 대기 상태이다.
 - `.ai/prompts/README.md`에는 프롬프트 목록만 있고 실제 프롬프트 파일은 아직 없다.
 - 다음 세션에서는 프롬프트 파일 생성 후 RED 단계 첫 작업으로 넘어가는 것이 자연스럽다.

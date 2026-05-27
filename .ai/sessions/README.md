@@ -92,7 +92,7 @@ sessions/
 참조 파일:
 - .ai/sessions/current.md
 - .ai/prompts/README.md
-- TODO.md
+- .ai/TODO.md
 - docs/PRD.md
 
 확인 후 current.md 의 ## 다음 시작 프롬프트 항목에 명시된

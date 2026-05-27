@@ -4,7 +4,7 @@
 step4-refactor
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/CONTEXT.md`
 - `docs/PRD.md`
 - `python/result_formatter.py`

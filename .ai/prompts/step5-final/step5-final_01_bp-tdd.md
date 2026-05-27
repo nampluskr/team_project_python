@@ -4,7 +4,7 @@
 step5-final
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/logs/`
 - `.ai/sessions/`
 - `bp/BP.md`

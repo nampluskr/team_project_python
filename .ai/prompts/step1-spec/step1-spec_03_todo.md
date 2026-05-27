@@ -4,7 +4,7 @@
 step1-spec
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `docs/PRD.md`
 - `requirement/Base.md`
 - `requirement/Further.md`

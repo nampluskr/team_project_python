@@ -44,11 +44,10 @@ input.txt 읽기
 
 | 단계 | 브랜치 | 상태 |
 |---|---|---|
-| SPEC | D-07-SPEC | 완료 |
-| RED | D-07-RED | 대기 |
-| GREEN | D-07-GREEN | 대기 |
-| REFACTOR | D-07-REFACTOR | 대기 |
-
+| SPEC | D-07-SPEC | 완료|
+| RED | D-07-RED | 대기|
+| GREEN | D-07-GREEN | 대기|
+| REFACTOR | D-07-REFACTOR | 대기|
 > **주의**: 현재는 SPEC 단계만 완료된 상태이다. 다음 단계에서는 RED 테스트 케이스를 먼저 작성하고 실패를 확인한 뒤 GREEN 구현으로 진행한다.
 
 ---
@@ -249,7 +248,7 @@ MOD,15123456,GILDONG HONG,CL3,010-1234-5678,19900101,ADV
 |---|---|
 | `docs/PRD.md` | 프로젝트 요구사항 정의서 (실제 코드 기준) |
 | `README.md` | 실행 방법 · To-Do List |
-| `TODO.md` | 단계별 체크박스 목록 |
+| `.ai/TODO.md` | 단계별 체크박스 목록 |
 | `requirement/Base.md` | 기본 요구사항 원문 |
 | `requirement/Further.md` | 추가 요구사항 원문 |
 | `.ai/prompts/README.md` | 프롬프트 파일 목록 |

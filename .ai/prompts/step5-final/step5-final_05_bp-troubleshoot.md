@@ -4,7 +4,7 @@
 step5-final
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/logs/`
 - `bp/BP.md`
 - 테스트 실행 기록

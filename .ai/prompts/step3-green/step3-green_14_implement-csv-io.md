@@ -4,7 +4,7 @@
 step3-green
 
 ## 참조
-- `TODO.md`
+- `.ai/TODO.md`
 - `.ai/CONTEXT.md`
 - `docs/PRD.md`
 - `python/main.py`
